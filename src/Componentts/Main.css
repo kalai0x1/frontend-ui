@@ -1,0 +1,121 @@
+.main{
+    margin : 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.trend{
+    height : 70vh;
+    background-color: #dcdcdc;
+    border-radius: 25px;
+    position : relative;
+    display: flex;
+    align-items: center;
+
+}
+
+.bass{
+    margin: 0 14vw; 
+    height: 70vh;
+    width : auto;
+}
+
+.summersale{
+    justify-content: space-evenly;
+    margin-left: 2rem;
+    height: 30vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.summersale h1 {
+    font-size : 3.4rem;
+}
+.summersale p{
+    font-size : 1rem;
+    font-weight: 600;
+}
+.summersale button{
+    background-color: #F02D34;
+    color : white;
+    border-radius : 10px;
+    padding : 0.5rem 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    border : none;
+    margin-top: 6vh;
+}
+.products{
+    margin-top : 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bs-products{
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap : 1rem;
+    align-items: center;
+    list-style-type : none;
+    text-decoration-style: none;
+}
+.items{
+    text-align: center;
+    height : 250px;
+    width : 250px;
+    border-radius : 5px;
+    background-color: #EBEBEB;
+}
+.img{
+    height: 240px;
+    width : 240px;
+}
+.offer{
+    height : 60vh;
+    color : white;
+    display: flex;
+    margin-top: 20vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F02D34;
+    border-radius: 25px;
+
+}
+.timetotime{
+    margin-left : 2vw;
+}
+.bas{
+    height: 85vh;
+    width : auto;
+    margin : 0px 0px 70px 90px;
+}
+.timetotime p{
+ font-weight: bold;
+}
+.summersales{
+    justify-content: space-evenly;
+    margin-right: 2vw;
+    height: 30vh;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.summersales h1 {
+    font-size : 3.4rem;
+}
+.summersales p{
+    font-size : 1rem;
+    font-weight: 600;
+}
+.summersales button{
+    background-color: white;
+    color : #F02D34;
+    border-radius : 10px;
+    padding : 0.5rem 0.6rem;
+    font-size: 1.2rem;
+    outline: none;
+    border : none;
+    margin-top: 6vh;
+}
