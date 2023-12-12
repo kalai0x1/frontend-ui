@@ -2,15 +2,18 @@ import React from "react"
 import "./Main.css"
 import bass from "../Images/h1.webp"
 import {Products} from "./Products"
+import {useNavigate} from 'react-router-dom'
+import Shop from "../Pages/Shop"
 
 export default function Main(){
+    const navigate = useNavigate();
     return(
         <div className="main">
             <div className="trend">
                 <div className="summersale">
                     <p>boosted bass</p>
                     <h1>Summer Sale</h1>
-                    <button>Shop Now</button>
+                    <button onClick={()=>navigate(`/products/${encodeURIComponent('Headphones')}`)}>Shop Now</button>
                 </div>
                 <img className="bass"  src={bass} alt = "404 Not found" />
             </div>
@@ -24,10 +27,10 @@ export default function Main(){
                 <li><img className="img" src = {Products.w_headset.src}/></li>
     <li><img className="img" src = {Products.speaker.src}/></li> */}
                 {Products.map((item) => (
-                    <div >
+                    <div onClick = {()=>navigate(`/products/${encodeURIComponent(item.name)}`)}>
                         <div className="items"><img className="img" src = {item.src}/></div>
                         <p style={{marginTop : "1vh"}}>{item.name}</p>
-                        <b>{item.price}</b>
+                        <b>${item.price}</b>
                     </div>
                     ))}
                 </div>
@@ -43,7 +46,7 @@ export default function Main(){
                     <p>boosted bass</p>
                     <h1>Summer Sale</h1>
                     <p><b>Best headphones in the market</b></p>
-                    <button>Shop Now</button>
+                    <button onClick = {()=>navigate(`/products/${encodeURIComponent("Headphones")}`)}>Shop Now</button>
                 </div>
             </div>
         </div>

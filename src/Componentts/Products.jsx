@@ -8,31 +8,31 @@ export const Products = [
      {
       id : 1,
       name : "Headphones",
-      price : "$99",
+      price : "99",
       src : h1,
     },
     {
         id : 2,
         name : "Airdopes 130",
-        price : "$100",
+        price : "100",
         src : h2,
       },
     {
         id : 3,
         name : "Smart watch",
-        price : "$1000",
+        price : "1000",
         src : h3,
       },
     {
         id : 4,
         name : "Earphones",
-        price : "$40",
+        price : "40",
         src : h4,
       },
     {
         id : 5,
         name : "Speaker",
-        price : "$500",
+        price : "500",
         src : h5,
       }
 ]

@@ -1,0 +1,113 @@
+
+.shop-pg{
+    display: flex;
+    flex-direction: column;
+    margin: 10vh 5vw;
+    justify-content: center;
+    align-items: center;
+}
+.item{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap:3vw;
+    
+
+}
+.lg{
+  
+  background-color: rgb(230, 230, 230);
+  width : 27vw;
+  display: flex;
+  justify-content: center;
+  border-radius : 10px;
+}
+.lg:hover{
+    background-color: red;
+}
+.lg img{
+    height : 60vh;
+    width : 30vw;
+}
+.sm{
+    margin-top: 2vh ;
+  background-color: red;
+  width : 5vw;
+  display: flex;
+  justify-content: center;
+  border-radius : 4px;
+}
+.sm img{
+    height : 10vh;
+    width : 5vw;
+}
+.qs{
+    margin-left : 5px;
+   border : 1px solid black;
+   display: inline-block; 
+}
+.qs button{
+    height:30px;
+    width :30px;
+    border : none;
+    background-color: white;
+    font-size: 18px;
+
+}
+.qs text{
+    border: 1px solid black;
+    height: 100%;
+    padding : 3px 10px;
+    border-top : none;
+    border-bottom: none;
+}
+
+.btns button{
+    margin-top: 7vh;
+    margin-right : 2rem;
+    padding: 0.5rem 4rem;
+    font-weight: bold;
+    font-size: 18px;
+    outline: none;
+    transition: 0.4s ease-in-out;
+}
+.btns button:hover{
+    transform: scale(1.1);
+}
+
+.marquee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:10vh;
+    padding: 0px;
+    width :100%;
+    
+
+}
+.img1{
+    height: 210px;
+    width : 210px;
+}
+.items1{
+    text-align: center;
+    height : 210px;
+    width : 210px;
+    border-radius : 5px;
+    background-color: #EBEBEB;
+}
+.bs-product{
+        margin-top: 8vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        gap : 1rem;
+        align-items: center;
+       
+}
+.pct{
+    transition: 0.3s ease-in-out;
+}
+.pct:hover{
+    transform: scale(1.1);
+}
